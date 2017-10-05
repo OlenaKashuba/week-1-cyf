@@ -1,0 +1,96 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 14px;
+	font-family: "Source Sans Pro",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main-header {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 20px;
+	padding: 0 1rem;
+}
+
+.main-logo {
+	width: 20%;
+	margin-right: 2rem;
+}
+
+.main-nav {
+	width: 65%;
+}
+
+.main-nav li {
+	text-transform: uppercase;
+	margin-right: 2rem;
+}
+
+.main-nav li:last-child {
+	margin-right: 0;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.nav-menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.btn {
+	display: inline-block;
+	border-radius: 0.15em;
+	font-weight: 400;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.main-header .btn-donate {
+	width: 10%;
+	padding: .5rem 1rem;
+	background-color: #CE5F31;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	transition: all .2s;
+}
+
+.main-header .btn-donate:hover {
+	background-color: #245cd3;
+}
+
+.main-header .btn-donate:active {
+	background-color: #0339ac;
+}
